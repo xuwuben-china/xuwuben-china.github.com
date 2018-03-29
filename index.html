@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello pal !</title>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-ico" >
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/music.js"></script>
+</head>
+
+<body>
+
+<!-- 添加背景音乐 -->
+<div class="musicDiv">
+       <audio id="music" src="mp3/bg.mp3" loop="loop"></audio>
+</div>
+
+<!-- 正文 -->
+<div class="content">
+    <!-- 头像 -->
+     <a class="avatar" id="aTitle" href="#" title="暂停音乐" onclick="playPause()">
+        <img src="images/head.jpg" alt="头像" >
+    </a>
+
+    <!-- 文字简介 -->
+    <div class="username">xuwuben</div>
+    <div class="desc">前端开发 移动端开发 微信小程序开发</div>
+
+    <!-- 外部链接 -->
+    <div class="social">
+        <a title="主页" href="https://github.com/xuwuben-china" target="_blank">
+            <span class="iconfont icon-home"></span>
+        </a>
+        <a title="博客" href="https://blog.csdn.net/xu_wuben" target="_blank">
+            <span class="iconfont icon-blog"></span>
+        </a>
+        <a title="微博" href="https://weibo.com/6083108327/info" target="_blank">
+            <span class="iconfont icon-weibo"></span>
+        </a>
+        <a title="摄影" href="html/photo.html" target="_blank">
+            <span class="iconfont icon-photo"></span>
+        </a>
+    </div>
+</div>
+</body>
+</html>
